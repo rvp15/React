@@ -1,0 +1,28 @@
+.appcls{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+  
+   width: fit-content;
+ text-align: center;
+ font-size: 20px;
+}
+
+.header{
+    border: 1px solid black;
+   }
+.search{
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.list{
+  
+    height: 80px;
+}
+.items{
+    padding: 10px;
+    border: 1px solid black;
+}
