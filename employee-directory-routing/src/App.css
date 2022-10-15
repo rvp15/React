@@ -46,3 +46,24 @@
     padding: 10px;
     max-width: 200px;
    }
+
+ .image1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+margin: 7 px;
+   }
+   .listdiv{
+    display: flex;
+}
+.emppag{
+    display: flex;
+    border: 1px solid black;
+    margin: -10px;
+}
+.emppgeh1{
+    display: flex;
+    justify-content: center;
+}
