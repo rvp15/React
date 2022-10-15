@@ -1,69 +1,66 @@
-.eachemployeelist{
-    list-style-type: none;
-    border: 3px solid rgb(80, 79, 81);
- color: rgb(49, 67, 67);
- padding-right: 30px;
-
+.eachemployeelist {
+  list-style-type: none;
+  border: 3px solid rgb(80, 79, 81);
+  color: rgb(49, 67, 67);
+  padding-right: 30px;
 }
-*{
-    background-color: rgb(176, 173, 170);
+* {
+  background-color: rgb(176, 173, 170);
 }
-.list{
-    border: 2px solid rgb(115, 109, 109);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 20px;
+.list {
+  border: 2px solid rgb(115, 109, 109);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
   margin: 10px;
-    width: 300px;
-    height: 100px;
-   
+  width: 300px;
+  height: 100px;
 }
-.link
-{
-     text-decoration: double;
-     color: rgb(109, 110, 110);
+.link {
+  text-decoration: double;
+  color: rgb(109, 110, 110);
 }
-.outerapp{
-    display: flex;
-    justify-content: center;
+.outerapp {
+  display: flex;
+  justify-content: center;
 }
-.App{
-    border: 1px solid black ;
-   padding: 20px;
-   max-width: fit-content;
+.App {
+  border: 1px solid black;
+  padding: 20px;
+  max-width: fit-content;
 }
-   .search{
-    width: 430px;
-   }
-   .header{
-    border: 1px solid black ;
-    display: flex;
-    justify-content: center;
-   }
-  .emp-page{
-    border: 1px solid black ;
-    padding: 10px;
-    max-width: 200px;
-   }
+.search {
+  width: 430px;
+}
+.header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.emp-page {
+  border: 1px solid black;
+  padding: 10px;
+  max-width: 200px;
+}
 
- .image1{
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-right: 20px;
-margin: 7 px;
-   }
-   .listdiv{
-    display: flex;
+.image1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin: 7 px;
 }
-.emppag{
-    display: flex;
-    border: 1px solid black;
-    margin: -10px;
+.listdiv {
+  display: flex;
 }
-.emppgeh1{
-    display: flex;
-    justify-content: center;
+.emppag {
+  display: flex;
+  border: 1px solid black;
+  margin: -10px;
+}
+.emppgeh1 {
+  display: flex;
+  justify-content: center;
 }

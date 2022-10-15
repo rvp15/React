@@ -11,43 +11,28 @@ function EmployeePage() {
   console.log(filteredData.title);
   return (
     <div>
-      <h1 className="emppgeh1">Employee</h1> 
-    <div  className="emppag">
-    <div>
-        <img className="image1" src={`/images/${filteredData.image}`} alt="" />{" "}
+      <h1 className="emppgeh1">Employee</h1>
+      <div className="emppag">
+        <div>
+          <img
+            className="image1"
+            src={`/images/${filteredData.image}`}
+            alt=""
+          />{" "}
+        </div>
+        <div>
+          <h1>{useParams().name}</h1>
+          <h3>{filteredData.title}</h3>
+        </div>
       </div>
-      <div>
-        <h1>{useParams().name}</h1>
-        <h3>{filteredData.title}</h3>
-      </div>
-    </div>
-   
-    <h3>Call Office</h3>
-    <p> {filteredData.callOffice}</p> <hr />
-    <h3>Call Mobile </h3>
-    <p>{filteredData.callMobile}</p> <hr />
-    <h3>SMS </h3>
-    <p>{filteredData.sms}</p> <hr />
-    <h3>Email </h3>
-    <p>{filteredData.email}</p>
-   
-
-      {/* <div className='emp-page'>
-        <h3>Call Office</h3>
-        567-556-8907
-      </div>
-      <div className='emp-page'>
-        <h3>Call Mobile</h3>
-        567-556-8907
-      </div>
-      <div className='emp-page'>
-        <h3>SMS</h3>
-        567-556-8907
-      </div>
-      <div className='emp-page'>
-        <h3>Email</h3>
-        juli34567@gmail.com
-      </div> */}
+      <h3>Call Office</h3>
+      <p> {filteredData.callOffice}</p> <hr />
+      <h3>Call Mobile </h3>
+      <p>{filteredData.callMobile}</p> <hr />
+      <h3>SMS </h3>
+      <p>{filteredData.sms}</p> <hr />
+      <h3>Email </h3>
+      <p>{filteredData.email}</p>
     </div>
   );
 }
