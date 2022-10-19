@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70, 139, 182);
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+  }
+  body{
+    background-color: rgb(215, 215, 156);
+    margin: 0px;
+  }
+  .header{
+    display: flex;
+    justify-content: center;
+  }
+  .listcls{
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .detailspage{
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons{
+    display: flex;
+   justify-content: center;
+  }
+  .btn{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
